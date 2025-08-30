@@ -1,11 +1,7 @@
-travel_log ={
-    "France": {
-        "num_times_visited": 8,
-        "Cities visited": ["Paris", "Lille", "Dijon"]
-    },
-    "Germany": {
-        "num_times_visited" : 5,
-        "Cities_visited": ["Berlin", "Hamburg", "Stuttgart"]
-    },
-}
-print(travel_log["Germany"]["Cities_visited"][2])
+def format(f_name, l_name):
+    formatted_f_name = f_name.title()
+    formatted_l_name = l_name.title()
+    return f"{formatted_f_name} {formatted_l_name}"
+
+print_formatted = format("anuj", "nalaWade")
+print(print_formatted)
